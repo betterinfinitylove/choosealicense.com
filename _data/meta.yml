@@ -37,20 +37,21 @@
 
 - name: featured
   description: Whether the license should be featured on the main page (defaults to false)
-  required: false
+  required: true
 
 - name: hidden
   description: Whether the license is neither [popular](https://opensource.org/licenses) nor fills out the [spectrum of licenses](https://choosealicense.com/licenses/) from strongly conditional to unconditional (defaults to true)
-  required: false
+  required: true
 
 - name: nickname
   description: Customary short name if applicable (e.g, GPLv3)
-  required: false
+  required: true
 
 - name: note
   description: Additional information about the licenses
-  required: false
+  required: true
 
 - name: redirect_from
   description: Relative path(s) to redirect to the license from, to prevent breaking old URLs
-  required: false
+  required: true
+
